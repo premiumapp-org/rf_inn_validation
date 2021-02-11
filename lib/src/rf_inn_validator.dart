@@ -26,8 +26,7 @@ bool isPersonInnValid(String inn) {
     return false;
   }
 
-  final split = inn.split('');
-  final digits = split.map((ch) => int.parse(ch)).toList();
+  final digits = inn.split('').map((ch) => int.parse(ch)).toList();
 
   final n1 = _calculateControlNumber(multipliers1, digits);
   final n2 = _calculateControlNumber(multipliers2, digits);

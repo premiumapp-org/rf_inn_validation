@@ -10,7 +10,7 @@ void main() {
     expect(isTwelveDigitsString('123456789012'), true);
   });
 
-  test('test inn correctness', () {
+  test('test person inn correctness', () {
     // invalid
     expect(isPersonInnValid(null), false);
     expect(isPersonInnValid(''), false);
