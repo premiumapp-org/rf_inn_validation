@@ -21,7 +21,6 @@ void main() {
 
   test('test person inn correctness', () {
     // invalid
-    expect(isPersonInnValid(null), false);
     expect(isPersonInnValid(''), false);
     expect(isPersonInnValid('1'), false);
     expect(isPersonInnValid('123456789012'), false);
@@ -33,7 +32,6 @@ void main() {
 
   test('test organization inn correctness', () {
     // invalid
-    expect(isOrganizationInnValid(null), false);
     expect(isOrganizationInnValid(''), false);
     expect(isOrganizationInnValid('1'), false);
     expect(isOrganizationInnValid('1234567890'), false);
