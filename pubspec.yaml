@@ -1,6 +1,6 @@
 name: rf_inn_validation
 description: Russian Federation INN validation package
-version: 0.1.0
+version: 0.2.0
 homepage: https://github.com/premiumapp-org/rf_inn_validation
 
 environment:
